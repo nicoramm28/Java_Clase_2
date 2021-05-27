@@ -26,20 +26,20 @@ public class CuentaCorriente {
         this.saldo = saldo;
     }
 
-    public void ingreso(){
-
+    public void ingreso(double adicion){
+        this.saldo = this.saldo + adicion;
     }
 
-    public void egreso(){
-
+    public void egreso(double substracion){
+        this.saldo = this.saldo - substracion;
     }
 
-    public void reitegro(){
-
+    public void reitegro(double reintegro){
+        this.ingreso(reintegro);
     }
 
-    public void transferencia(){
-
+    public void transferencia(double transferencia){
+        this.egreso(transferencia);
     }
 
     public int getNumero() {

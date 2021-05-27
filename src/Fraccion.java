@@ -12,6 +12,9 @@ public class Fraccion {
 
     public Fraccion(int numerador, int denominador) {
         this.numerador = numerador;
+        if(denominador == 0){
+            throw new RuntimeException("Denominador no puede ser cero");
+        }
         this.denominador = denominador;
     }
 
@@ -33,6 +36,9 @@ public class Fraccion {
     }
 
     public void setDenominador(int denominador) {
+        if(denominador == 0){
+            throw new RuntimeException("Denominador no puede ser cero");
+        }
         this.denominador = denominador;
     }
 
