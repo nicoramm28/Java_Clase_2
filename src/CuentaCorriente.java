@@ -3,6 +3,7 @@ public class CuentaCorriente {
     private double saldo;
 
     public CuentaCorriente() {
+        saldo = 0;
     }
 
     public CuentaCorriente(int saldo) {
