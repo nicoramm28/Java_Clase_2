@@ -1,3 +1,5 @@
+package Mañana;
+
 public class Contador {
 
     private int i;

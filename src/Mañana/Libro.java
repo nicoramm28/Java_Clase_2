@@ -1,3 +1,5 @@
+package Mañana;
+
 public class Libro {
 
     private String titulo;
@@ -16,7 +18,7 @@ public class Libro {
     }
 
     public Libro() {
-        this.titulo = "Libro nuevo";
+        this.titulo = "Mañana.Libro nuevo";
         this.isbn = 0;
         this.autor = "Autor pendiente";
         this.disponible = false;

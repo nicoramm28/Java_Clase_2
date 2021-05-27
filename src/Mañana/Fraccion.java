@@ -1,3 +1,5 @@
+package Mañana;
+
 public class Fraccion {
 
     private int numerador;
