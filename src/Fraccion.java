@@ -43,7 +43,7 @@ public class Fraccion {
     }
 
     public void sumar(int x){
-        this.numerador = this.numerador * x;
+        this.numerador = this.numerador + (x * this.denominador);
     }
 
     public void sumar(Fraccion f2){
