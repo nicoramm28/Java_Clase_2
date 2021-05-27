@@ -1,4 +1,4 @@
-package Tarde;
+package Tarde.Ejercicio1;
 
 public class PasswordFuerte extends Password{
 

@@ -1,9 +1,7 @@
-import Tarde.Ejercicio1.Password;
-import Tarde.Ejercicio2.*;
-
+package Tarde.Ejercicio2;
 import java.util.Scanner;
 
-public class Ejercicios {
+public class Ejercicio2 {
 
     public static void main(String[] args) {
 
