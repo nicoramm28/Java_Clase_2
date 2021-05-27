@@ -21,4 +21,12 @@ public class Contador {
     public void setI(int i) {
         this.i = i;
     }
+
+    public void incrementar(){
+        this.i++;
+    }
+
+    public void decrementar(){
+        this.i--;
+    }
 }
